@@ -40,8 +40,8 @@
 #ifdef USE_FILE_REPAIR
 
 #include <curl/curl.h>
-#include <curl/types.h>
-#include <curl/easy.h>
+//#include <curl/types.h>
+//#include <curl/easy.h>
 
 #ifdef __cplusplus
 extern "C" {

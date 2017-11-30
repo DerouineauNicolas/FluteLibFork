@@ -39,7 +39,7 @@ flute_unittest ::
 	@echo "------------------------"
 	@echo "*** FLUTE unit test ***"
 	@echo "------------------------"
-	mkdir bin; cd UnitTest; make clean; make
+	#mkdir bin; cd UnitTest; make clean; make
 	@echo "done"
 
 clean :
