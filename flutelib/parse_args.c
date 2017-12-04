@@ -667,6 +667,7 @@ int parse_args(int argc, char **argv, arguments_t *a) {
 	    }
 	    break;
 	  default:
+	    printf("%d nth argument  is not recognized correctly \n", i);
 	    return -1;
 	    break;
 	  }

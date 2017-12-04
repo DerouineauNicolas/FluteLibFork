@@ -321,6 +321,7 @@ int main(int argc, char **argv) {
   
   if(retval == -1) {
     usage();
+    printf("Shit !");
   }
 
   s_id = -1;

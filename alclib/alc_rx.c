@@ -1313,8 +1313,10 @@ void* rx_thread(void *s) {
   
   while(session->state == SActive || session->state == SAFlagReceived) {
     
+    
     if(session->nb_channel != 0) {
       retval = recv_packet(session);
+      printf("%d \n", retval);
     }
     else {
 #ifdef _MSC_VER
