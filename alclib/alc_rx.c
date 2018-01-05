@@ -158,7 +158,7 @@ int analyze_packet(char *data, int len, alc_channel_t *ch) {
 		return HDR_ERROR;
 	}
 
-	if(def_lct_hdr->reserved != 0) {
+	if(def_lct_hdr->reserved != 2) {
 		printf("Reserved field not zero!\n");
 		fflush(stdout);
 		return HDR_ERROR;
