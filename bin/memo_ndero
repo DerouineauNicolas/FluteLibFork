@@ -1,0 +1,7 @@
+./flute -A -B:$PWD/DASH_Content1 -m:224.1.1.1 -s:137.194.232.199 -p:4005 -t:5 -Q -Y:1 -J:Rcv_Log_MPD1.txt
+
+./flute -A -B:$PWD/DASH_Content1 -m:224.1.1.1 -s:137.194.232.199 -p:4001 -t:1 -Q -Y:1 -J:Rcv_Log_Video1.txt
+
+./flute -o:5036 -t:10 -A -B:$PWD/DASH_Content2 -m:239.255.56.235 -s:192.168.5.121 -p:8002 -I:vboxnet0
+
+
