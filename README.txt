@@ -27,6 +27,6 @@ Once you have the SLT, you can use the binary in the bin folder.
 
 For example, to get object TOI 0 TSI 0:
 
-* ./flute -o:5036 -t:10 -A -B:$PWD/DASH_Content2 -m:239.255.56.235 -s:192.168.5.121 -p:8002 -I:vboxnet0
+* ./flute -o:0 -t:0 -A -B:$PWD/DASH_Content2 -m:239.255.56.235 -s:192.168.5.121 -p:8002 -I:vboxnet0
 
 
