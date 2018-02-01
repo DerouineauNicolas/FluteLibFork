@@ -3,7 +3,7 @@ Work in progress for ATSC ROUTE Demuxer:
 Compilation
 -------------------
 
-Linux (16.04) :
+Linux (Ubuntu 16.04) :
 
 * Tested with the following dependancies (libcurl/7.57.0-DEV OpenSSL/1.0.2g zlib/1.2.8)
 * From top directory, run make.
