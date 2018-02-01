@@ -1316,7 +1316,7 @@ void* rx_thread(void *s) {
     
     if(session->nb_channel != 0) {
       retval = recv_packet(session);
-      printf("%d \n", retval);
+      //printf("%d \n", retval);
     }
     else {
 #ifdef _MSC_VER
