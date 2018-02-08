@@ -6,6 +6,7 @@ Compilation
 Linux (Ubuntu 16.04) :
 
 * Tested with the following dependancies (libcurl/7.57.0-DEV OpenSSL/1.0.2g zlib/1.2.8)
+* apt-get install libssl-dev libexpat1-dev 
 * From top directory, run make.
 * Binaries are generated in the bin directory/
 
